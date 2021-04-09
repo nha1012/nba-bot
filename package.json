@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "bottender dev",
     "lint": "eslint .",
-    "start": "bottender start",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
     "test": "jest"
   },
   "dependencies": {
     "bottender": "1.0.0-alpha.27",
+    "express": "^4.17.1",
     "moment": "^2.24.0",
     "nba-stats-client": "^1.0.0"
   },
